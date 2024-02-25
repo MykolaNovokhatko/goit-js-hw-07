@@ -7,17 +7,20 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
     />
+    <link rel="stylesheet" href="./css/common.css" />
     <title>task-6</title>
   </head>
   <body>
     <!-- task-6 -->
-    <div id="controls">
-      <input type="number" min="1" max="100" step="1" />
-      <button type="button" data-create>Create</button>
-      <button type="button" data-destroy>Destroy</button>
-    </div>
+    <div class="controls-container">
+      <div class="controls-fotm-container" id="controls">
+        <input class="controls-form-input" type="number" min="1" max="100" step="1" />
+        <button class="controls-button-create" type="button" data-create>Create</button>
+        <button class="controls-button-destroy" type="button" data-destroy>Destroy</button>
+      </div>
 
-    <div id="boxes"></div>
+      <div class="boxes-container" id="boxes"></div>
+    </div>
 
     <script src="./js/task-6.js" type="module"></script>
   </body>

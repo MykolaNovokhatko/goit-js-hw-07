@@ -7,39 +7,40 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
     />
+    <link rel="stylesheet" href="./css/common.css" />
     <title>task-1</title>
   </head>
   <body>
     <!-- task-1 -->
-    <ul id="categories">
+    <ul class="categories-container" id="categories">
       <li class="item">
-        <h2>Animals</h2>
-        <ul>
-          <li>Cat</li>
-          <li>Hamster</li>
-          <li>Horse</li>
-          <li>Parrot</li>
+        <h2 class="title-categories">Animals</h2>
+          <ul class="item-categories">
+            <li class="list-categories">Cat</li>
+            <li class="list-categories">Hamster</li>
+            <li class="list-categories">Horse</li>
+            <li class="list-categories">Parrot</li>
+          </ul>
+      </li>
+      <li class="item">
+        <h2 class="title-categories">Products</h2>
+        <ul class="item-categories">
+          <li class="list-categories">Bread</li>
+          <li class="list-categories">Parsley</li>
+          <li class="list-categories">Cheese</li>
         </ul>
       </li>
       <li class="item">
-        <h2>Products</h2>
-        <ul>
-          <li>Bread</li>
-          <li>Parsley</li>
-          <li>Cheese</li>
+        <h2 class="title-categories">Technologies</h2>
+        <ul class="item-categories">
+          <li class="list-categories">HTML</li>
+          <li class="list-categories">CSS</li>
+          <li class="list-categories">JavaScript</li>
+          <li class="list-categories">React</li>
+          <li class="list-categories">Node.js</li>
         </ul>
       </li>
-      <li class="item">
-        <h2>Technologies</h2>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>React</li>
-          <li>Node.js</li>
-        </ul>
-      </li>
-    </ul>    
+    </ul>
     <script src="./js/task-1.js" type="module"></script>
   </body>
 </html>

@@ -18,6 +18,9 @@ function createBoxes(amount) {
     return;
   }
 
+  // Очищаємо попередні блоки перед створенням нових
+  destroyBoxes();
+
   const boxes = [];
   for (let i = 0; i < amount; i++) {
     const box = document.createElement('div');
